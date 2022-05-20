@@ -83,10 +83,9 @@ a:hover{
 }
 
 
-/* image gallery!*/
 .gallery {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 35em;
     grid grid-auto-rows: 35em;
     grid-gap: 5px;
