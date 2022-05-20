@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	background-color: #0C090A;
+	line-height: 30px;
+
+}
+
+
+
+header{
+	background-color: #0C090A;
+	text-align: center;
+}
+	
+header h1{
+	color: antiquewhite;
+	font-family: 'Alegreya SC', 'Georgia', serif; font-size: 110px;
+}
+
+header img{
+	max-width:  100%;
+}
+
+
+/* main body headers, images and text!*/
+main{
+	max-width: 1305px;
+	padding:  20px 20px 20px 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+main h2{
+	color: antiquewhite;
+	font-family: 'Alegreya SC', 'Georgia', serif; font-size: 40px;
+}
+main h3{
+	color: antiquewhite;
+	font-family: 'Alegreya SC', 'Georgia', serif; font-size: 20px;
+}
+
+p{
+	color: ghostwhite;
+	font-family: 'Epilogue', sans-serif;
+	margin: 0px 100px 15px 50px;
+}
+
+
+ol{
+	color: ghostwhite;
+	font-family: 'Epilogue', sans-serif;
+	font-size: 15px;
+}
+
+ul{
+	color: ghostwhite;
+	font-family: 'Epilogue', sans-serif;
+}
+
+
+footer{
+	color: antiquewhite;
+	text-align: center;
+	font-size: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 12em 12em;
+    grid-auto-rows: 12em;
+    grid-gap: 5px;
+    margin: 0px 90px 0px 75px;
+}
+
+a{
+	color: ghostwhite;
+}
+a:hover{
+	color:  palegoldenrod;
+}
+
+
+/* image gallery!*/
+.gallery {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 35em;
+    grid grid-auto-rows: 35em;
+    grid-gap: 5px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item--1 {
+    margin: 5px 5px 5px 5px;
+}
+    
